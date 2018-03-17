@@ -8,6 +8,4 @@
 * 出国到世界上生活
 * ⦙
 
-
-[源码](https://github.com/emenzero/2)
-[阅读](README)
+[开始阅读](README)
