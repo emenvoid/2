@@ -17,10 +17,13 @@
       loadSidebar: true,
       subMaxLevel: 1,
       auto2top: true,
+      markdown: {
+        breaks: true
+      },
       plugins: [
         function (hook, vm) {
           hook.beforeEach(function (html) {
-            var url = 'https://github.com/emenzero/2/edit/master/docs/' + vm.route.file
+            var url = 'https://github.com/emenvoid/2/edit/master/docs/' + vm.route.file
             var editHTML = '<a href="' + url + '" style="display: block; text-align: right;">编辑</a>'
 
             return editHTML + '\n' + html
